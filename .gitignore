@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+.env
+dist/
+*.log
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+build/
+out/
+
+# Next.js
+.next/
