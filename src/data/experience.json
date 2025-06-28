@@ -1,0 +1,96 @@
+{
+  "experience": {
+    "title": "My Experience",
+    "work_experience": [
+      {
+        "position": "IT Infrastructure Intern",
+        "company": "National Bank of Rwanda",
+        "location": "Kigali, Rwanda",
+        "duration": "June 2024 - August 2024",
+        "responsibilities": [
+          "Configured and managed router subnetting for network optimization",
+          "Managed datacenter infrastructure to ensure high availability and performance",
+          "Implemented virtualization solutions to improve resource utilization and system efficiency"
+        ]
+      },
+      {
+        "position": "IT Support Intern",
+        "company": "Rwanda Energy Group (REG)/EUCL",
+        "location": "Kigali, Rwanda",
+        "duration": "November 2024 - January 2025",
+        "responsibilities": [
+          "Installed and configured applications across organizational systems",
+          "Managed user accounts and permissions for secure access control",
+          "Set up and configured email systems for seamless communication",
+          "Administered domain controllers for centralized network management",
+          "Maintained and troubleshooted disk systems and UPS infrastructure"
+        ]
+      }
+    ],
+    "education_background": [
+      {
+        "degree": "Bachelor's in Information Technology",
+        "institution": "University of Rwanda",
+        "location": "Kigali, Rwanda",
+        "duration": "April 2021 - June 2025",
+        "details": "Relevant coursework: Hardware Maintenance, Cryptography, Programming and CLI, Cybersecurity, Machine Learning, Operating Systems, and Networking."
+      }
+    ],
+    "internships_or_volunteer_work": [
+      {
+        "role": "AI Learning Candidate",
+        "organization": "ALX Bootcamp",
+        "location": "Kigali, Rwanda",
+        "duration": "May 2024 - July 2024",
+        "description": "Developed AI-powered calendar management systems and created CVs and portfolios with AI assistants, demonstrating practical AI integration skills."
+      },
+      {
+        "role": "Data Analyst Candidate",
+        "organization": "Afritec Bootcamp",
+        "location": "Kigali, Rwanda",
+        "duration": "February 2024 - April 2024",
+        "description": "Processed and analyzed big data using Python, gaining hands-on experience with data manipulation and AI-driven analytics."
+      },
+      {
+        "role": "Women Coding Bootcamp Participant",
+        "organization": "AmaliTech Bootcamp",
+        "location": "Kigali, Rwanda",
+        "duration": "July 2024 - September 2024",
+        "description": "Learned HTML, CSS, and JavaScript fundamentals, developed website development strategies, and gained UI/UX design skills."
+      },
+      {
+        "role": "AI Learning Candidate",
+        "organization": "Carnegie Mellon University (CMU)",
+        "location": "Kigali, Rwanda",
+        "duration": "October 2024 - December 2024",
+        "description": "Explored Internet of Things (IoT) concepts, adapted sensor functionality, and used Arduino to optimize IoT performance."
+      }
+    ],
+    "relevant_coursework_or_certifications": [
+      {
+        "title": "Certificate in Artificial Intelligence",
+        "issuer": "ALX Bootcamp",
+        "date": "July 2024",
+        "description": "Comprehensive AI training covering machine learning, neural networks, and practical AI applications."
+      },
+      {
+        "title": "Certificate in Data Science",
+        "issuer": "Afritec Bootcamp",
+        "date": "April 2024",
+        "description": "Advanced data analysis and processing techniques using Python and big data technologies."
+      },
+      {
+        "title": "Certificate in Networking",
+        "issuer": "National Bank of Rwanda",
+        "date": "August 2024",
+        "description": "Practical experience in network infrastructure, router configuration, and datacenter management."
+      },
+      {
+        "title": "Certificate in General Studies",
+        "issuer": "University of Rwanda",
+        "date": "2025",
+        "description": "Foundation in information technology principles and practices."
+      }
+    ]
+  }
+}
