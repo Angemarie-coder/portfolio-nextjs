@@ -4,11 +4,11 @@
     "items": [
       {
         "name": "AI-and-Data-Analytics",
-        "description": "A cloud-based inventory management system designed for small businesses to track stock, manage orders, and generate real-time analytics. The application streamlined operations for clients, reducing manual errors by 30%.",
-        "technologies": ["python","jupyter"],
+        "description": "A comprehensive data analytics project showcasing Python-based data processing and machine learning techniques. Features include data visualization, statistical analysis, and predictive modeling using Jupyter notebooks.",
+        "technologies": ["Python", "Jupyter", "Pandas", "NumPy", "Matplotlib"],
         "links": {
           "live_demo": "",
-          "github": "https://github.com/Angemarie-coder/AI-and-Data-Analytics.git"
+          "github": "https://github.com/Angemarie-coder/AI-and-Data-Analytics"
         },
         "image": {
           "src": "",
@@ -16,45 +16,70 @@
         }
       },
       {
+        "name": "git-github-fundamentals",
+        "description": "A learning project focused on Git and GitHub fundamentals, demonstrating version control best practices, branching strategies, and collaborative development workflows.",
+        "technologies": ["Git", "GitHub", "Version Control"],
+        "links": {
+          "live_demo": "",
+          "github": "https://github.com/Angemarie-coder/git-github-fundamentals-Angemarie-coder"
+        },
+        "image": {
+          "src": "",
+          "alt": "Git GitHub Fundamentals Screenshot"
+        }
+      },
+      {
+        "name": "JS-Ange-craft-haven",
+        "description": "A JavaScript-based crafting and gaming platform featuring interactive elements, user engagement features, and modern web development practices.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Web Development"],
+        "links": {
+          "live_demo": "",
+          "github": "https://github.com/Angemarie-coder/JS-Ange-craft-haven"
+        },
+        "image": {
+          "src": "",
+          "alt": "JS Ange Craft Haven Screenshot"
+        }
+      },
+      {
+        "name": "Klab_tweeter-page_clone",
+        "description": "A Twitter page clone built with modern web technologies, featuring responsive design, user interface replication, and interactive components that mimic the original Twitter experience.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+        "links": {
+          "live_demo": "https://angemarie-coder.github.io/klabwebsite.github.io/",
+          "github": "https://github.com/Angemarie-coder/klabwebsite.github.io"
+        },
+        "image": {
+          "src": "",
+          "alt": "Klab Tweeter Page Clone Screenshot"
+        }
+      },
+      {
         "name": "conference_project",
-        "description": "A social networking platform for professionals to connect, share insights, and collaborate on projects. Features include real-time chat, profile customization, and secure authentication with JWT.",
-        "technologies": ["python", "HTML", "SQLite", "MongoDB"],
+        "description": "A comprehensive conference management application designed to handle event planning, attendee registration, and conference logistics. Features include user management, scheduling, and administrative tools.",
+        "technologies": ["Python", "HTML", "SQLite", "MongoDB", "Web Development"],
         "links": {
           "live_demo": "",
           "github": "https://github.com/Angemarie-coder/conference_project"
         },
         "image": {
-          "src": " ",
-          "alt": "conference_project Screenshot"
+          "src": "",
+          "alt": "Conference Project Screenshot"
         }
       },
       {
-        "name": "Web Development",
-        "description": "An e-learning platform for schools to manage courses, assignments, and student progress. Integrated with a RESTful API and cloud storage, it improved student engagement by 25%.",
-        "technologies": ["HTML,CSS,JavaScript"],
+        "name": "AmaliTech_Coding-Bootcamp",
+        "description": "A portfolio of projects developed during the AmaliTech coding bootcamp, showcasing HTML and CSS skills with practical web development applications and responsive design principles.",
+        "technologies": ["HTML", "CSS", "Web Development", "Responsive Design"],
         "links": {
           "live_demo": "",
-          "github": "https://github.com/uwineza-ange/edutrack"
+          "github": "https://github.com/Angemarie-coder/AmaliTech_Cooding-Bootcamp"
         },
         "image": {
-          "src": " ",
-          "alt": "Web Development Screenshot"
-        }
-      },
-      {
-        "name": "BlogApp",
-        "description": "A mobile-friendly health tracking app that allows users to log symptoms, schedule appointments, and receive reminders. Built with a focus on accessibility and user-friendly design.",
-        "technologies": ["TypeScript", "Node.js", "Express","postman","MongoDB"],
-        "links": {
-          "live_demo": "",
-          "github": "https://github.com/uwineza-ange"
-        },
-        "image": {
-          "src": " ",
-          "alt": "BlogApp Screenshot"
+          "src": "",
+          "alt": "AmaliTech Coding Bootcamp Screenshot"
         }
       }
-
     ]
   }
 }
