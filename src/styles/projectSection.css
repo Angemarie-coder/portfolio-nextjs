@@ -1,0 +1,257 @@
+.project-section {
+  background: #2d3748;
+  padding: 80px 20px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.project-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+.project-title::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border-radius: 2px;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border-radius: 16px 16px 0 0;
+  z-index: 2;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.project-details {
+  padding: 32px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-details h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #667eea;
+  display: inline-block;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #e2e8f0;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tech-tag {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.link-btn {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-align: center;
+  flex: 1;
+}
+
+.link-btn.live-demo {
+  background: linear-gradient(135deg, #48bb78, #38a169);
+  color: #fff;
+  border: 1px solid #38a169;
+}
+
+.link-btn.live-demo:hover {
+  background: linear-gradient(135deg, #38a169, #2f855a);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(72, 187, 120, 0.3);
+}
+
+.link-btn.github {
+  background: linear-gradient(135deg, #2d3748, #1a202c);
+  color: #fff;
+  border: 1px solid #1a202c;
+}
+
+.link-btn.github:hover {
+  background: linear-gradient(135deg, #1a202c, #171923);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(45, 55, 72, 0.3);
+}
+
+.project-title, .project-section h2, .project-section h3 {
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-section {
+    padding: 60px 16px;
+  }
+
+  .project-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .project-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .project-card {
+    min-height: auto;
+  }
+
+  .project-details {
+    padding: 24px;
+  }
+
+  .project-details h2 {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+
+  .project-description {
+    font-size: 15px;
+  }
+
+  .tech-tag {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  .link-btn {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-section {
+    padding: 40px 12px;
+  }
+
+  .project-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .project-card {
+    min-height: auto;
+  }
+
+  .project-image {
+    height: 150px;
+    font-size: 36px;
+  }
+
+  .project-details {
+    padding: 20px;
+  }
+
+  .project-details h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+
+  .tech-tag {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .link-btn {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
