@@ -3,7 +3,7 @@
     "title": "My Experience",
     "work_experience": [
       {
-        "position": "IT Infrastructure Intern",
+        "position": "IT Infrastructure Intern (Academic Internship)",
         "company": "National Bank of Rwanda",
         "location": "Kigali, Rwanda",
         "duration": "June 2024 - August 2024",
@@ -59,7 +59,7 @@
         "description": "Learned HTML, CSS, and JavaScript fundamentals, developed website development strategies, and gained UI/UX design skills."
       },
       {
-        "role": "AI Learning Candidate",
+        "role": "Bridge program candidate",
         "organization": "Carnegie Mellon University (CMU)",
         "location": "Kigali, Rwanda",
         "duration": "October 2024 - December 2024",
@@ -68,22 +68,16 @@
     ],
     "relevant_coursework_or_certifications": [
       {
-        "title": "Certificate in Artificial Intelligence",
-        "issuer": "ALX Bootcamp",
-        "date": "July 2024",
+        "title": " Certificate in Artificial Intelligence Career Essentials",
+        "issuer": " ALX Bootcamp",
+        "date": " April 2024",
         "description": "Comprehensive AI training covering machine learning, neural networks, and practical AI applications."
       },
       {
-        "title": "Certificate in Data Science",
+        "title": "Certificate AI and Data Analytics",
         "issuer": "Afritec Bootcamp",
         "date": "April 2024",
         "description": "Advanced data analysis and processing techniques using Python and big data technologies."
-      },
-      {
-        "title": "Certificate in Networking",
-        "issuer": "National Bank of Rwanda",
-        "date": "August 2024",
-        "description": "Practical experience in network infrastructure, router configuration, and datacenter management."
       },
       {
         "title": "Certificate in General Studies",
