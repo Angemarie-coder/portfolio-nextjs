@@ -3,11 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-<<<<<<< HEAD
   background: #2d3748;
-=======
-  background: #fff;
->>>>>>> e4ae893f6ea48ca53c1436bfa77a229e3385ea5f
   position: sticky;
   top: 0;
   z-index: 100;
@@ -17,20 +13,12 @@
 .logo {
   font-size: 35px;
   font-weight: 700;
-<<<<<<< HEAD
-  color: #fff;
-=======
   color: #333;
->>>>>>> e4ae893f6ea48ca53c1436bfa77a229e3385ea5f
   letter-spacing: -0.5px;
 }
 
 .logo-accent {
-<<<<<<< HEAD
-  color: #fff;
-=======
   color: #ff6b35;
->>>>>>> e4ae893f6ea48ca53c1436bfa77a229e3385ea5f
 }
 
 .nav {
@@ -41,11 +29,7 @@
 
 .nav a {
   text-decoration: none;
-<<<<<<< HEAD
-  color: #fff;
-=======
   color: #333;
->>>>>>> e4ae893f6ea48ca53c1436bfa77a229e3385ea5f
   font-weight: 500;
   font-size: 20px;
   transition: color 0.2s ease;
