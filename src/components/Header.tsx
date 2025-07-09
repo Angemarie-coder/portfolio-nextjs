@@ -19,7 +19,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="logo">
-        Ange<span className="logo-accent">craft</span>
+        Ange<span className="logo-accent">Portfolio</span>
       </div>
       <button className="hamburger" onClick={toggleMenu}>
         <span className="hamburger-line"></span>
