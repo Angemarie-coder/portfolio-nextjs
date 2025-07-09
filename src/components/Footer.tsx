@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
       <div className="footer-container">
         <div className="footer-main">
           <div className="footer-logo">
-            Ange<span className="logo-accent">Craft</span>
+            Ange<span className="logo-accent">Portfolio</span>
           </div>
           <nav className="footer-nav">
             <a href="#hero" onClick={() => scrollToSection("hero")}>
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} AngeCraft. All rights reserved.
+            &copy; {new Date().getFullYear()} AngePortfolio. All rights reserved.
           </p>
         </div>
       </div>
