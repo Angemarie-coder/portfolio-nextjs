@@ -43,11 +43,11 @@
 }
 
 .hero-text p {
-  font-size: 18px;
-  color: #4a5568;
+  font-size: 16px;
+  color: #fff;
   line-height: 1.6;
   margin-bottom: 30px;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .get-started-btn {
@@ -166,9 +166,7 @@
     font-size: 20px;
   }
 
-  .hero-text p {
-    max-width: 100%;
-  }
+ 
 
   .image-placeholder {
     width: 300px;
@@ -185,9 +183,6 @@
     font-size: 18px;
   }
 
-  .hero-text p {
-    font-size: 16px;
-  }
 
   .image-placeholder {
     width: 250px;
